@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import Filter from "./Filter"
 
-const Header = ({ list, setFilters }) => {
+const Header = ({ list }) => {
   return (
     <header>
       <h1>React Shop 🛒️</h1>
-      <Filter list={list} setFilters={setFilters} />
+      <Filter list={list} />
     </header>
   )
 }
